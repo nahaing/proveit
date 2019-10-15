@@ -1,22 +1,17 @@
-.App {
-  text-align: center;
+body{
+    overflow-x: hidden;
+}
+div{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+@media only screen and (min-width: 900px){
+    .home-bg{
+        background: url("./Assets/Logo/top-background.jpg") top no-repeat, url("./Assets//Logo/bottom-background.jpg") bottom no-repeat;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 }
