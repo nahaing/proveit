@@ -20,7 +20,7 @@ class Header extends Component {
           <div class="nav-item ml-2 mt-2">
             <a class="nav-link text-white" href="#">
               <img
-                class="logo"
+                class="logo display"
                 src={require("../../Assets/Logo/home-button.png")}
                 alt="home"
               />
@@ -59,6 +59,11 @@ class Header extends Component {
               <li class="nav-item">
                 <a class="nav-link text-white link-style mr-5" href="#team">
                   Team
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white link-style mr-5" href="#newsletter">
+                  News Letter
                 </a>
               </li>
             </ul>

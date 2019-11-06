@@ -86,7 +86,7 @@ class NewsLetter extends Component {
               class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-xs-8"
               style={{ padding: "0% 6% 0% 6%" }}
             >
-              <button class="mt-4 mb-5 btn subcribeButton">Subscribe</button>
+              <button id="newsLetterButton" class="mt-4 mb-5 btn subcribeButton">Subscribe</button>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2 col-xs-2" />
           </div>
