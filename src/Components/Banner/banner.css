@@ -1,17 +1,17 @@
 .company-logo-section {
   margin: 25% 0 0 0;
   animation: LogoMoveToRight 2s;
+  width: 100%;
+  height: 100%;
 }
 
 .text-animation {
   animation: textAnimation 2s;
 }
 
-@media only screen and (max-width: 650px) {
-  .company-logo {
-    width: 100%;
-    height: 50%;
-  }
+.company-logo {
+  width: 70%;
+  height: 70%;
 }
 
 @keyframes LogoMoveToRight {

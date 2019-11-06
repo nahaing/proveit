@@ -1,6 +1,11 @@
 body{
     overflow-x: hidden;
 }
+
+button:hover{
+    background-color: rgb(235, 231, 231);
+}
+
 div{
     -webkit-background-size: cover;
     -moz-background-size: cover;

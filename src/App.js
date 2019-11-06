@@ -3,15 +3,19 @@ import React from "react";
 import "./App.css";
 
 import Header from "./Components/Header/header";
+// import Test from "./Components/TabView/test";
 import Banner from "./Components/Banner/banner";
 import Intro from "./Components/Intro/intro";
-import Strategy from "./Components/Strategy/strategy";
+import { Provider } from "react-redux";
+import store from "./Store/store";
 
 function App() {
   return (
-    <div class="home-bg">
-      <Header />
-    </div>
+    <Provider store={store}>
+      <div class="home-bg" style={{ overflowX: "hidden" }}>
+        <Header />
+      </div>
+    </Provider>
   );
 }
 

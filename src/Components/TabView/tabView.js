@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Tabs from "./tabs";
+import './Tabs.css';
 
 class TabView extends Component {
   state = {};
@@ -15,7 +16,7 @@ class TabView extends Component {
             padding: "0px"
           }}
         >
-          <Tabs />
+          <Tabs currentTab={this.props.currentTab} />
         </div>
       </React.Fragment>
     );

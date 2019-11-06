@@ -36,7 +36,7 @@ class Intro extends Component {
         <div class="container-fluid">
           <div class="row">
             <div
-              class="col-12 col-sm-12 col-md-4 col-lg-5 col-xl-5"
+              class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5"
               data-aos="slide-right"
               data-aos-offset="200"
               // data-aos-delay="50"
@@ -46,7 +46,7 @@ class Intro extends Component {
                 <div class="row">
                   <img
                     class="intro-logo"
-                    src={require("../../Assets/Logo/logo.png")}
+                    src={require("../../Assets/Logo/intro-logo.png")}
                     alt="logo"
                   />
                 </div>
@@ -58,8 +58,9 @@ class Intro extends Component {
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-7">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
               <div
+                class="flow-control"
                 data-aos="slide-left"
                 data-aos-offset="200"
                 // data-aos-delay="50"

@@ -56,7 +56,7 @@ class Banner extends Component {
               </div>
               <div class="row">
                 <div class="col">
-                  <div class="text-center text-animation">
+                  <div class="text-center mt-2 text-animation">
                     <p class="text-center ">
                       ProveIt works with accredited professional notaries,
                       institutional partners and jurisdictional legislatures to

@@ -53,9 +53,9 @@
   font-size: 20px;
 }
 .subcribeButton {
-  background-color: #17bcde;
+  background-color: transparent;
   width: 100%;
-  color: #ffffff;
+  color: #17bcde;
   border-radius: 30px;
   font-size: 35px;
   padding: 3px;
@@ -65,7 +65,7 @@
   animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: backwards; */
-  border: 2px solid #bababa;
+  border: 2px solid #17bcde;
 }
 .subcribeButton:hover {
   color: #ffffff;

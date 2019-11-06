@@ -10,7 +10,9 @@ import Metaverse from "../Metaverse/metaverse";
 import NewsLetter from "../NewsLetter/newsLetter";
 
 class Header extends Component {
-  state = {};
+  state = {
+    currentTab: 0,
+  };
   render() {
     return (
       <React.Fragment>
@@ -19,7 +21,7 @@ class Header extends Component {
             <a class="nav-link text-white" href="#">
               <img
                 class="logo"
-                src={require("../../Assets/Logo/home-button.svg")}
+                src={require("../../Assets/Logo/home-button.png")}
                 alt="home"
               />
               {/* <span class="display">HOME</span> */}
@@ -39,12 +41,12 @@ class Header extends Component {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white mr-5" href="#tab">
+                <a class="nav-link text-white mr-5" onClick={()=>this.setState({currentTab: 0})} href="#tab">
                   Create
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mr-5" href="#tab">
+                <a class="nav-link text-white mr-5" onClick={()=>this.setState({currentTab: 1})} href="#tab">
                   Verify
                 </a>
               </li>
@@ -65,7 +67,7 @@ class Header extends Component {
           <Banner />
         </div>
         <div class="container" id="tab">
-          <TabView />
+          <TabView currentTab={this.state.currentTab} />
         </div>
         <div class="container-fluid" id="about">
           <Intro />
