@@ -16,7 +16,7 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav class="navbar navbar-expand-md bg-color navbar-dark">
+        <nav class="navbar navbar-expand-md bg-color navbar-dark mb-1">
           <div class="nav-item ml-2 mt-2">
             <a class="nav-link text-white" href="#">
               <img
@@ -41,22 +41,23 @@ class Header extends Component {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white mr-5" onClick={()=>this.setState({currentTab: 0})} href="#tab">
+                <a class="nav-link text-white link-style mr-5" onClick={()=>this.setState({currentTab: 0})} href="#tab">
+                  {/* <div class="motion"></div> */}
                   Create
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mr-5" onClick={()=>this.setState({currentTab: 1})} href="#tab">
+                <a class="nav-link text-white link-style mr-5" onClick={()=>this.setState({currentTab: 1})} href="#tab">
                   Verify
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mr-5" href="#about">
+                <a class="nav-link text-white link-style mr-5" href="#about">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white mr-5" href="#team">
+                <a class="nav-link text-white link-style mr-5" href="#team">
                   Team
                 </a>
               </li>
